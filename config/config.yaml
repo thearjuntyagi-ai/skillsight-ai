@@ -1,0 +1,31 @@
+app:
+  name: "SkillSight AI"
+  version: "1.0.0"
+  environment: "development"
+  debug: true
+
+collection:
+  request_delay_seconds: 2
+  max_retries: 3
+  timeout_seconds: 30
+  batch_size: 100
+  sources:
+    csv:
+      enabled: true
+      path: "data/external/sample_jobs.csv"
+
+cleaning:
+  min_description_length: 50
+
+nlp:
+  spacy_model: "en_core_web_sm"
+
+ml:
+  test_size: 0.2
+  random_state: 42
+  models_dir: "models/"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s | %(name)s | %(levelname)s | %(message)s"
+  log_dir: "logs/"

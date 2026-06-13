@@ -1,0 +1,17 @@
+pandas
+numpy
+pyyaml
+python-dotenv
+requests
+beautifulsoup4
+sqlalchemy
+plotly
+matplotlib
+seaborn
+streamlit
+scikit-learn
+joblib
+nltk
+pdfplumber
+pytest
+pytest-cov

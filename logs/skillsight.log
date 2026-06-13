@@ -1,0 +1,17 @@
+2026-06-13 13:27:48 | src.collectors.csv_adapter | INFO | Sample CSV written: data\external\sample_jobs.csv (500 rows)
+2026-06-13 13:27:48 | src.collectors.csv_adapter | INFO | [csv] Loading from data\external\sample_jobs.csv
+2026-06-13 13:27:48 | src.collectors.base_collector | INFO | [csv] collected=500 failed=0 success_rate=100.0%
+2026-06-13 13:27:48 | src.cleaners.data_cleaner | INFO | Cleaning 500 raw records
+2026-06-13 13:27:48 | src.cleaners.data_cleaner | INFO | Clean complete: 45 records (455 dupes removed)
+2026-06-13 13:30:05 | src.recommendations.career_recommender | INFO | Generating recommendation: role=Data Analyst skills=3
+2026-06-13 13:31:07 | src.collectors.csv_adapter | INFO | [csv] Loading from data\external\sample_jobs.csv
+2026-06-13 13:31:07 | src.collectors.base_collector | INFO | [csv] collected=500 failed=0 success_rate=100.0%
+2026-06-13 13:31:07 | src.cleaners.data_cleaner | INFO | Cleaning 500 raw records
+2026-06-13 13:31:07 | src.cleaners.data_cleaner | INFO | Clean complete: 45 records (455 dupes removed)
+2026-06-13 13:42:39 | src.collectors.csv_adapter | INFO | [csv] Loading from data\external\sample_jobs.csv
+2026-06-13 13:42:39 | src.collectors.base_collector | INFO | [csv] collected=500 failed=0 success_rate=100.0%
+2026-06-13 13:42:39 | src.cleaners.data_cleaner | INFO | Cleaning 500 raw records
+2026-06-13 13:42:39 | src.cleaners.data_cleaner | INFO | Clean complete: 45 records (455 dupes removed)
+2026-06-13 13:42:41 | src.ml.skill_forecaster | INFO | Calculating skill trends...
+2026-06-13 13:42:43 | src.ml.salary_predictor | INFO | Training salary predictor...
+2026-06-13 13:42:44 | src.ml.salary_predictor | INFO | Salary model trained: R2=-0.316 MAE=522727
