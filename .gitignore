@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.streamlit/
+logs/
+models/
+data/external/postings.csv
+data/external/sample_jobs.csv
+.env
+*.pkl
